@@ -1,5 +1,22 @@
 # vue-shopping-cart
 
+## About
+This repository is my practice project about simple shopping cart.
+
+## Features
+* Login and logout
+* The prouduct add to the shopping cart
+* Remove product in cart.
+* Edit member profile.
+
+## Used technologies
+vue/vue3
+vuex
+vue-router
+taiwind css
+firebase
+element-ui
+
 ## Project setup
 ```
 yarn install
@@ -19,6 +36,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

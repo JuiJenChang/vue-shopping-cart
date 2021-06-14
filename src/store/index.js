@@ -1,8 +1,21 @@
 import { createStore } from "vuex";
+import Cart from "./cart";
 
 export default createStore({
-  state: {},
-  mutations: {},
+  state: {
+    loginStatus: false,
+    isLoading: false,
+  },
+  mutations: {
+    setLoginStatus(state, payload) {
+      state.loginStatus = payload;
+    },
+    setIsLoading(state, payload) {
+      state.isLoading = payload;
+    },
+  },
   actions: {},
-  modules: {},
+  modules: {
+    Cart,
+  },
 });
