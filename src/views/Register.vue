@@ -180,6 +180,7 @@ export default {
               )
               .then(() => {
                 state.registerForm.uid = createdUid();
+                delete state.registerForm.confirmPassword
                 registerUser(state.registerForm);
                 router.push("/login");
                 store.commit("setIsLoading", false);

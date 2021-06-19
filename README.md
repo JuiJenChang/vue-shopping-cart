@@ -8,14 +8,15 @@ This repository is my practice project about simple shopping cart.
 * The prouduct add to the shopping cart
 * Remove product in cart.
 * Edit member profile.
+* Update password
 
 ## Used technologies
-vue/vue3
-vuex
-vue-router
-taiwind css
-firebase
-element-ui
+* vue/vue3
+* vuex
+* vue-router
+* taiwind css
+* firebase
+* element-ui
 
 ## Project setup
 ```

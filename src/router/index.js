@@ -41,6 +41,11 @@ const routes = [
     name: "MemberEdit",
     component: () => import("../views/Member/edit.vue"),
   },
+  {
+    path: "/member/updatepassword",
+    name: "MemberUpdatePassword",
+    component: () => import("../views/Member/updatePassword.vue"),
+  },
 ];
 
 const router = createRouter({

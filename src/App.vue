@@ -88,7 +88,7 @@ export default {
         .then(() => {
           localStorage.clear();
           store.commit("setLoginStatus", false);
-          if (router.currentRoute.value.path === "/member") {
+          if (router.currentRoute.value.path === "/member" || router.currentRoute.value.path === "/member/updatepassword") {
             router.push("/login");
           }
           store.commit("setIsLoading", false);

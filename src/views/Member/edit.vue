@@ -1,6 +1,10 @@
 <template>
   <div class="py-5 min-h-full bg-gray-300 flex justify-center items-center">
-    <div class="w-2/5 h-auto bg-white rounded-lg shadow-2xl">
+    <div class="w-2/5 h-auto bg-white rounded-lg shadow-2xl relative">
+      <i
+        @click="router.push('/member/updatepassword')"
+        class="el-icon-setting absolute top-3 right-5 text-xl hover:text-gray-400 cursor-pointer"
+      ></i>
       <h1
         class="w-full h-12 flex justify-center items-center font-bold text-gray-800 text-2xl"
       >
