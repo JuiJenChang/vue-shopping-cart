@@ -9,13 +9,13 @@ import "element-plus/lib/theme-chalk/index.css";
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBKIIdOuaiWClax7dC1hDBlQi6e38McbuE",
-  authDomain: "vue-shopping-cart-e54ab.firebaseapp.com",
-  projectId: "vue-shopping-cart-e54ab",
-  storageBucket: "vue-shopping-cart-e54ab.appspot.com",
-  messagingSenderId: "98013505095",
-  appId: "1:98013505095:web:43e55ffe66ec0de97f7362",
-  measurementId: "G-B0TE5YEYKZ",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
